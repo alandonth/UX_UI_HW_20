@@ -1,0 +1,334 @@
+@import url("https://p.typekit.net/p.css?s=1&k=isk2wgo&ht=tk&f=37550.37551.41334.41346&a=70548432&app=typekit&e=css");
+
+@font-face {
+font-family:"raleway-v20-deprecated";
+src:url("https://use.typekit.net/af/df3220/00000000000000007735c160/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/df3220/00000000000000007735c160/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/df3220/00000000000000007735c160/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:;
+src:url("https://use.typekit.net/af/01a8d9/00000000000000007735c151/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff2"),url("https://use.typekit.net/af/01a8d9/00000000000000007735c151/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("woff"),url("https://use.typekit.net/af/01a8d9/00000000000000007735c151/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n9&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:900;
+}
+
+@font-face {
+font-family:"chapman";
+src:url("https://use.typekit.net/af/a876be/00000000000000007735b777/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/a876be/00000000000000007735b777/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/a876be/00000000000000007735b777/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"chapman";
+src:url("https://use.typekit.net/af/6e3b11/00000000000000007735b786/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/6e3b11/00000000000000007735b786/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/6e3b11/00000000000000007735b786/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+.tk-raleway-v20-deprecated { font-family: "raleway-v20-deprecated",sans-serif; }
+.tk-chapman { font-family: "chapman",sans-serif; }
+
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 50px;
+    /* background-color: #333333; */
+}
+
+.pages{
+    list-style: none;
+
+}
+
+.pages li{
+    display: inline-block;
+    padding:0px 20px;
+    font-family: "raleway-v20-deprecated";
+    font-size: 16pt;
+    /* color: white; */
+}
+
+.pages li:hover{
+    color:wheat;
+    cursor: pointer;
+}
+
+
+.logo{
+    width: 10%;
+    height: auto;
+    cursor:pointer ;
+    padding: 0%;
+    /* margin: 0px 50px; */
+    /* text-align: center; */
+}
+
+.hero{
+    align-items: center;
+    width: 600px;
+    margin: 150px auto;
+    align-items: center;
+    height:100%;
+    
+}
+
+/* .content{
+    width: 750px;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 0 auto;
+} */
+
+.hero h1{
+    font-size: 64px;
+    font-family: "chapman";
+}
+
+.hero p{
+    font-size: 18px;
+    font-family: "raleway-v20-deprecated";
+}
+
+.hero button{
+    font-family: "raleway-v20-deprecated";
+    background-color: #333333;
+    border:2px solid #333333;
+    /* border-radius: 50px; */
+    color: white;
+    /* font-weight: 400; */
+    font-size: 18px;
+    height: 50px;
+    width: 250px;
+    transition: ease-in-out .2s;
+}
+
+.hero button:hover{
+    background-color: wheat;
+    color: #333333;
+    cursor: pointer;
+}
+
+.work{    
+    background-color: #333333;
+    /* height: 1500px; */
+    display: flex;
+    justify-content: left;
+    
+}
+
+.work{    
+    background-color:#333333;
+    /* height: 1500px; */
+    display: flex;
+    justify-content: left;
+    
+}
+
+.grey-back{
+    background-color: #333333;
+}
+.work-cards{
+    margin:0px auto;
+    background-color: #333333;
+    height: 450px;
+    /* height: 100%; */
+    margin: 50px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    justify-content: space-between;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+
+}
+
+.about-cards{
+    margin:0px auto;
+    background-color: white;
+    height: 600px;
+    margin: 50px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.wheat-box{
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    width: 300px;
+    height: 100px;
+    /* position: relative; */
+}
+
+.wheat-box h1{
+    font-size: 36px;
+    font-family: "chapman";
+    align-content: center;
+}
+
+footer{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color:#333333;
+    color: white;
+}
+
+.card{
+    /* margin: 150px 50px; */
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px;
+    grid-template-areas: "image" "text";
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border: 2px solid white;
+    /* border-radius: 10px ; */
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+    transition: 0.5s ease;
+    /* position: relative; */
+}
+
+.card:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+
+
+.card-image{
+    grid-area: image;
+    background-image: url(../images/whatshapp.png);
+    background-size: cover;
+    background-color: lightskyblue;
+    
+}
+
+.card-text{
+    grid-area: text;
+    font-family: "raleway-v20-deprecated";
+    margin: 25px;
+    /* background-color: #333333; */
+}
+
+.card-text h2{
+    font-family: "chapman";
+}
+
+.about_card{
+    /* margin: 150px 50px; */
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px;
+    grid-template-areas: "image" "text";
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border: 2px solid white;
+    /* border-radius: 10px ; */
+    /* box-shadow: 5px 5px 10px black; */
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+    /* transition: 0.5s ease; */
+    /* position: relative; */
+}
+
+.about_card-text{
+    grid-area: text;
+    font-family: "raleway-v20-deprecated";
+    margin: 25px;
+    /* background-color: #333333; */
+}
+
+.about_card-text h2{
+    font-family: "chapman";
+}
+.aboutbutton{
+    text-align: center;
+    font-family: "raleway-v20-deprecated";
+    background-color: #333333;
+    border:2px solid #333333;
+    /* border-radius: 50px; */
+    color: white;
+    /* font-weight: 400; */
+    font-size: 18px;
+    height: 50px;
+    /* padding: 3%; */
+    width: 250px;
+    transition: ease-in-out .2s;
+    margin: 0 auto;
+    display: block;
+
+}
+
+.aboutbutton:hover{
+    background-color: wheat;
+    color: #333333;
+    cursor: pointer;
+}
+
+.category{
+    font-family: "raleway-v20-deprecated";
+    font-size: 12px;
+}
+/* .card:hover{
+    background-color: wheat;
+    color: #333;
+} */
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  25%{
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  } */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.preloader {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  z-index: 100000;
+  background-color: white;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.preloader img{
+    /* animation: forwards; */
+  /* animation: spin 1s ease; */
+  width: 150px;
+  margin: 0 auto;
+} */ 
+
+@media screen and(max-width:600px) {
+    
+}
