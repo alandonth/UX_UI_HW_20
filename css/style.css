@@ -160,9 +160,11 @@ p{
 }
 
 .next{
-    padding: 50px;
+    /* padding: 100px; */
+    margin: 75px;
     display: flex;
-    background-color: #F6D1FC;
+    /* background-image: url(../images/adventure.jpg); */
+    background-color: #f6d1fc;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
