@@ -32,6 +32,38 @@ body{
     padding: 0 auto;
 }
 
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* .sections-nav ul{
+    list-style: none;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    top:0; left:0;
+    background-color: #191919;
+    color: white;
+    box-shadow: 2px 0px 5px black;
+}
+
+.sections-nav ul li{
+    margin: 5px;
+    padding: 5px;
+    margin-top: 75px;
+}
+
+.sections-nav ul li a{
+    color: white;
+    text-decoration: none;
+
+} */
+
 header{
     display: flex;
     justify-content: space-between;
@@ -92,7 +124,7 @@ header{
     height: 150vh;
 }
 
-.case-study-nav .col{
+#case-study-nav .col{
     margin: 25px;
     pad: 25px;
 }
@@ -110,13 +142,13 @@ header{
 .black-back{
     background-color: #191919;
 }
-.case-study-nav{
+#case-study-nav{
     background-color: #191919;
     color: white;
     background-size: cover;
 }
 
-.case-study-nav h1:hover{
+#case-study-nav h1:hover{
 color: #F6D1FC;
 cursor: pointer;
 }
@@ -129,6 +161,82 @@ cursor: pointer;
     background-repeat: no-repeat;
     background-size: cover;
     /* height: 100vh; */
+}
+
+.definition-hero{
+    /* background-image: url(../images/brainstorm2.jpg); */
+    background-color: #191919;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.definition-hero h1{
+    padding: 150px;
+}
+
+.solution-hero{
+    /* background-image: url(../images/brainstorm2.jpg); */
+    background-color: #191919;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.solution-hero h1{
+    padding: 150px;
+}
+
+.solution-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.splash{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.demo-mov{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash img{
+    width: auto;
+    height: 500px;
+}
+
+#case-study-nav a{
+    font-family: "chapman",serif ;
+    text-decoration: none;
+    color: white;
+    font-size: 28pt;
+}
+
+#case-study-nav a:hover{
+    text-decoration: none;
+    color: wheat;
+}
+
+.solution a{
+    font-family: "raleway",sans-serif ;
+    text-decoration: none;
+    color: #191919;
+    font-size: 18pt;
+}
+
+.solution a:hover{
+    text-decoration: none;
+    color: purple;
 }
 
 h1{
@@ -157,6 +265,73 @@ p{
 .img-fluid {
     max-width: 100%;
     height: auto;
+}
+
+.section-padding{
+    padding: 100px 0 0 0;
+}
+
+.converge{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F7D1FD;
+    color: #191919;
+}
+
+.converge h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 0 0;
+}
+
+.converge p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 100px 0 100px;
+    padding: 0 0 100px 0;
+}
+
+.prototyping-hero{
+    /* background-image: url(../images/brainstorm2.jpg); */
+    background-color: #191919;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.prototyping-hero h1{
+    padding: 150px;
+}
+
+.prototyping{
+    padding: 150px 0 0 0;
+}
+
+.testing-hero{
+    /* background-image: url(../images/brainstorm2.jpg); */
+    background-color: #191919;
+    color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 100vh; */
+}
+
+.testing-hero h1{
+    padding: 150px;
+}
+
+.testing{
+    padding: 150px 0 0 0;
+}
+
+.taskflow{
+    padding: 0 0 100px 0;
 }
 
 .next{
